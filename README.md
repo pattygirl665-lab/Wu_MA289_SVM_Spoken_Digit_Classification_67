@@ -4,7 +4,7 @@ This project uses classical machine learning to distinguish recordings of the sp
 
 The project documents my exploration of support vector machines (SVMs), including feature scaling, principal component analysis (PCA), RBF kernels, and hyperparameter tuning. I used Python and scikit-learn in Google Colab.
 Results
-Best observed Kaggle public leaderboard ROC AUC: 0.96386. I experimented with changing the param_svm__C, param_svm__gamma, and param_pca__n_components to reach this value. However, I had submitted it the day after the deadline, so it might not show on the leaderboard.
+Best observed Kaggle public leaderboard ROC AUC: 0.96386. I experimented with changing the param_svm__C, param_svm__gamma, and param_pca__n_components to reach this value. However, I had submitted it the day after the deadline, so it might not show on the leaderboard. In Step 10 of the collab code, you can see the different paramete_grids I was running to find the best values. Then, manually choosing that to create a submission using the main model made and submitting and iterating from there.
 
 Data and labels
 - Training data: 400 labeled recordings (200 of each digit)
